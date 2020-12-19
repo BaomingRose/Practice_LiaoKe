@@ -149,17 +149,4 @@ public class Identity_Func {
         }
         return gender;
     }
-
-    public static void main(String[] args) throws Exception {
-        String id = "21038119980607651X";
-        String s = get_province(id);
-        System.out.println(s);
-
-        s = get_age(id);
-        System.out.println(s);
-
-        s = get_aniaml(id);
-        System.out.println(s);
-    }
-
 }
